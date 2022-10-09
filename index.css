@@ -1,0 +1,348 @@
+    * {
+        margin: 0%;
+        padding: 0%;
+        font-family: twitter;
+    }
+
+    section {
+        display: flex;
+        width: 100%;
+    }
+
+    /* =================== div----1 ===================== */
+
+
+    .div-1 nav img {
+        height: 9%;
+        width: 9%;
+        margin: 1rem 0rem 0rem 4rem;
+    }
+
+    .div-1 ul li {
+        display: flex;
+        flex-direction: column;
+        margin: 2rem;
+    }
+
+    @font-face {
+        font-family: twitter;
+        src: url("images/Comfortaa-Bold.ttf");
+    }
+
+    .div-1 ul li a {
+        padding: 5px;
+        text-decoration: none;
+        font-size: 1.3em;
+        color: black;
+        margin-left: 1rem;
+        align-items: center;
+        /* margin: 1.3rem 0rem 0rem 1rem; */
+    }
+
+    .div-1 ul li img {
+        padding: 5px;
+        text-decoration: none;
+        font-size: 1.3em;
+        color: black;
+        margin-left: 1rem;
+        margin-top: 19px;
+        align-items: center;
+        /* margin: 1.3rem 0rem 0rem 1rem; */
+    }
+
+    .div-1 ul li :nth-child(1) {
+        margin-top: 0px;
+    }
+
+    .div-1 ul li img {
+        height: 9%;
+        width: 9%;
+        padding-right: 1em;
+
+    }
+
+    .div-1 ul li a:hover {
+        background-color: rgb(219, 219, 219);
+        border-radius: 2rem;
+        /* padding: 8px; */
+
+    }
+
+    .div-1 {
+        /* background-color: silver; */
+        height: 100vh;
+        /* position: fixed; */
+        float: left;
+        /* width: 30%; */
+        width: 30%;
+    }
+
+    #btn-tweet {
+        margin: 0rem 0rem 0rem 3rem;
+        padding: .8rem 5rem .8rem 5rem;
+        background-color: rgb(108, 77, 230);
+        border-radius: 2rem;
+        border: none;
+        font: 1.3rem bolder;
+
+        color: white;
+        /* font-family: sans-serif,twitter; */
+    }
+
+    .log-img {
+        height: 6%;
+        width: 6%;
+    }
+
+    .log-page a:hover {
+        background-color: rgb(219, 219, 219);
+        border-radius: 2rem;
+    }
+
+    .log-page a {
+        padding: 8px;
+        font-size: .8rem;
+        display: flex;
+        margin: 3rem 3rem 0rem 3rem;
+        text-decoration: none;
+        color: black;
+    }
+
+    .log-img {
+        height: 2rem;
+        width: 2rem;
+        padding-right: 6px;
+    }
+
+    .log-img1 {
+        padding-left: 2rem;
+        margin-top: 4px;
+        height: 1.4rem;
+        width: 1.4rem;
+    }
+
+    .log-page h3 {
+        font-weight: bold;
+        /* padding-top: 10px; */
+    }
+
+    /* ================= div-2 ================== */
+    
+    .div-2 {
+        /* background-color: rgb(199, 199, 199);
+         */
+        height: 100vh;
+        width: 100%;
+
+    }
+
+    .div-2 nav {
+        background-color: white;
+        /* filter: blur(3px); */
+        height: 2.4rem;
+        width: 100%;
+        /* opacity: .5; */
+        position: relative;
+    }
+
+    .div-2 h2 {
+        font-weight: bold;
+        font-size: large;
+        background: #fff;
+        position: fixed;
+        /* z-index: +2; */
+
+        padding: 10px 0px 0px 10px;
+    }
+
+    .div-2 h1 {
+        margin: .8rem 0rem 0rem 10px;
+        font-size: large;
+    }
+
+    /* .div-2 nav ::after{
+        content: '';
+        filter: blur(3px);
+        background-color: aliceblue;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        opacity: .8;
+
+    } */
+    .div-2h img {
+        height: 6%;
+        width: 6%;
+    }
+
+    .subdiv-2 {
+        margin: 2rem 0rem 0rem 3rem;
+    }
+
+    .subdiv-2 a img {
+        height: 3%;
+        width: 3%;
+        padding: 7px;
+        margin: auto;
+
+    }
+
+    #subdiv-2btn {
+        background-color: rgb(108, 77, 230);
+        border-radius: 2rem;
+        border: none;
+        font: 1rem bolder;
+        padding: 10px 16px 10px 16px;
+        color: white;
+        margin-right: 20px;
+        margin-top: -5px;
+        float: right;
+    }
+
+    .client {
+        margin-top: 1rem;
+    }
+
+    .client div {
+        display: flex;
+    }
+
+    .client-sub1 img {
+        height: 2.6rem;
+        margin: 15px 0rem 0rem 10px;
+
+        /* width: %; */
+    }
+
+    #userid,
+    #posttime {
+        font-size: 12px;
+        color: rgb(131, 131, 131);
+
+    }
+
+    .client-sub2 div a {
+        text-decoration: none;
+    }
+
+    .client-sub2 {
+        width: 100%;
+    }
+
+    .client-sub2 div {
+        margin: 1rem 0rem 0rem 1rem;
+        display: block;
+
+    }
+
+    .client-sub2 div p {
+        margin-top: 5px;
+        /* inline-size: min-content; */
+    }
+
+    #seemore {
+        color: rgb(131, 131, 131);
+        text-decoration: none;
+        font-size: 10px;
+    }
+
+    #client-a {
+        color: rgb(131, 131, 131);
+        text-decoration: none;
+        font-size: 10px;
+        margin-left: 4rem;
+    }
+
+    #more img {
+        height: 20px;
+        float: right;
+    }
+
+    #more {
+        margin: 1rem 5% 0rem 13%;
+
+
+    }
+
+    #img1,
+    #img2 {
+        height: 25px;
+    }
+
+    .actions {
+        /* background-color: rgb(248, 206, 151); */
+        margin-top: 1rem;
+    }
+
+    .actions img {
+        height: 20px;
+        float: left;
+        margin-left: 4rem;
+    }
+/* -===========div-3================ */
+    .div-3 {
+        /* background-color: silver; */
+        height: 100vh;
+        width: 70%;
+    }
+    #input{
+        border: 1.8px solid blue;
+        border-radius: 25px;
+        padding: 5px;
+        width: 75%;
+        margin: auto;
+        margin-top: 5px;
+        /* position:absolute; */
+
+    }
+    #input img{
+        height: 20px;
+        width: 20px;
+        margin-left:10px ;
+        margin-bottom: -5px;
+        /* margin: 10px 0px 0px 0px; */
+    }
+    .div-3 input{
+        border: none;
+        padding: 5px;
+        background:transparent;
+        text-decoration: none;
+        width: max-content;
+        margin-left:20px ;
+    /* float: right; */
+
+    }
+    .div-3sub1{
+        width: 75%;
+        background-color: rgb(221, 221, 221);
+        border-radius: 10px;
+        border: none;
+        margin: auto;
+        margin-top: 1rem;
+        padding: 10px;
+    }
+.div-3sub1 div{
+    margin-top: 1.4rem;
+}
+    #div-3sub1a{
+        color: rgb(131, 131, 131);
+        text-decoration: none;
+        font-size: 12px;
+    }
+    #div-3sub1a1{
+        color: black;
+
+
+    }
+    #div-3sub1a2{
+        font-size: 12px;
+    }
+   a{
+    text-decoration: none;
+   }
+   footer{
+    text-align: center;
+    margin: 55px;
+    padding: 10px;
+    text-align: justify;
+   }
